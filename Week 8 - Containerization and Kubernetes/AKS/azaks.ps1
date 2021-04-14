@@ -1,10 +1,10 @@
 [CmdletBinding()]
 param (
 
-    $name = 'cloudskillsaks92',
-    $rgName = 'AZ-400',
+    $name = 'cloudskillsndr2021',
+    $rgName = 'cloudskills',
     $nodeCount = 1,
-    $kubernetesVersion = '1.19.6'
+    $kubernetesVersion = '1.19.7'
 )
 
 az aks create --generate-ssh-keys `
